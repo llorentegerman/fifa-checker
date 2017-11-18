@@ -1,0 +1,22 @@
+{
+  "name": "fifa-checker",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "llorentegerman@gmail.com",
+    "name": "Germán Llorente",
+    "url": "https://github.com/llorentegerman"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-notifier": "^5.1.2",
+    "request": "^2.83.0",
+    "@sendgrid/mail": "^6.1.3"
+  }
+}
